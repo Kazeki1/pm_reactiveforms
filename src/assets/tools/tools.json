@@ -1,0 +1,52 @@
+[
+    {
+        "toolId": 1,
+        "toolName": "1/2 dr ratchet",
+        "toolCode": "62332",
+        "releaseDate": "Feb 18, 2018",
+        "description": "Flex head professional long handle.",
+        "price": 29.99,
+        "starRating": 4.7,
+        "imageUrl": "https://shop.harborfreight.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/i/m/image_25205.jpg"
+    },
+    {
+        "toolId": 2,
+        "toolName": "1/2 dr SAE socket set",
+        "toolCode": "69280",
+        "releaseDate": "Feb 18, 2018",
+        "description": "13 pc impact deep socket",
+        "price": 24.99,
+        "starRating": 4.2,
+        "imageUrl": "https://shop.harborfreight.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/i/m/image_25391.jpg"
+    },
+    {
+        "toolId": 3,
+        "toolName": "1/2 dr Metric socket set",
+        "toolCode": "69561",
+        "releaseDate": "May 21, 2016",
+        "description": "13 pc impact deep socket",
+        "price": 24.99,
+        "starRating": 4.8,
+        "imageUrl": "https://shop.harborfreight.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/i/m/image_24435.jpg"
+    },
+    {
+        "toolId": 4,
+        "toolName": "Earthquake XT Cordless Impact Wrench",
+        "toolCode": "63537",
+        "releaseDate": "Feb 15, 2018",
+        "description": "1/2 20v Max Lithium Xtreme Torque",
+        "price": 259.99,
+        "starRating": 4.8,
+        "imageUrl": "https://shop.harborfreight.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/6/3/63537_zzz_500.jpg"
+    },
+    {
+        "toolId": 5,
+        "toolName": "Earthquake XT Cordless Ratchet Wrench",
+        "toolCode": "63538",
+        "releaseDate": "Feb 18, 2018",
+        "description": "3/8 12v Max Lithium Xtreme Torque",
+        "price": 119.99,
+        "starRating": 4.1,
+        "imageUrl": "https://shop.harborfreight.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/i/m/image_27708.jpg"
+    }
+]

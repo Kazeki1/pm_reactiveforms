@@ -1,0 +1,57 @@
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    <h1>{{pageTitle}}</h1>
+  </div>
+  <div class="panel-body">
+    <div class="row">
+      <div class="col-md-2">
+        <h2>Filter By: </h2>
+      </div>
+      <div class="col-md-4">
+        <input type="text" [(ngModel)]='listFilter'/>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <h3>Filtered by: {{listFilter}}</h3>
+      </div>
+    </div>
+  </div>
+  <div class="table-responsive">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>
+            <button class="btn btn-primary"
+              (click)='toggleImage()'>
+              {{showImage ? 'Hide' : 'Show'}}</button>
+          </th>
+          <th>tool</th>
+          <th>Code</th>
+          <th>Available</th>
+          <th>Price</th>
+          <th>Star Rating</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor='let tool of filteredTools'>
+          <td><img *ngIf='showImage' 
+            [src]='tool.imageUrl'
+            [style.width.px]='toolWidth'
+            [style.margin.px]='toolMargin' />
+          </td>
+          <td>
+              <a [routerLink]="['/tool', tool.toolId]">
+                {{tool.toolName}}
+              </a>
+          </td>
+          <td>{{tool.toolCode | lowercase | convertToSpaces: '-'}}</td>
+          <td>{{tool.releaseDate}}</td>
+          <td>{{tool.price | currency : 'USD' : true : '1.2-2'}}</td>
+          <td><app-star [rating]='tool.starRating'
+                  (ratingClicked)='onRatingClicked($event)'></app-star></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

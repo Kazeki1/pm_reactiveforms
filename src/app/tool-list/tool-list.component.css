@@ -1,0 +1,18 @@
+table {
+    font-size: large;
+}
+div.panel-heading {
+    font-size: xx-large;
+}
+div.panel-body {
+    font-size: large;
+}
+th {
+    font-size: x-large;
+}
+tbody {
+    text-align: left;
+}
+td {
+    font-size: large;
+}
